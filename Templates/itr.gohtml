@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Template</title>
+</head>
+<body>
+    <ul>
+        {{ range $i, $el := .}}
+        <li>{{$i}} - {{$el}}</li>
+        {{ end }}
+    </ul>
+</body>
+</html> 
